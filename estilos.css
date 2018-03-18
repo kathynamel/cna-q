@@ -423,6 +423,10 @@ h1{
 	text-shadow: 1px 2px 3px #31597A;
 }
 
+ol li{
+	text-align:left;
+}
+
 @media (max-width: 850px) {
 	#menu{
 	position:relative;
