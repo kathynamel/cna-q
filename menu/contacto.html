@@ -8,6 +8,7 @@
 	<link href="../estilos.css" rel="stylesheet">
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/contacto.js"></script>
 </head>
 
 <body>
@@ -71,10 +72,10 @@
 	<form action="">
     <div class="form-group">
     	<label for="nombre">Nombre:</label>
-      <input type="nombre" class="casilla required" id="nombre" placeholder="Nombre Apellido" name="nombre">
+      <input type="nombre" class="casilla" id="nombre" placeholder="Nombre Apellido" name="nombre">
       <br><br>
       <label for="email">Email:</label>
-      <input type="email" class="casilla required" id="email" placeholder="Ingresa tu email" name="email">
+      <input type="email" class="casilla" id="email" placeholder="Ingresa tu email" name="email">
       <br><br>
       <label for="comment">Comment:</label>
       <textarea class="casilla" rows="5" id="consulta" placeholder="Escribe tu consulta"></textarea>
@@ -82,7 +83,7 @@
     <div class="checkbox">
       <label><input type="checkbox" name="suscrib"> Recibir noticias de cursos</label>
     </div>
-    <button type="submit" class="boton">Enviar</button>
+    <button type="submit" id="enviar" class="boton" onclick="validar();">Enviar</button>
   </form>
   </div>
 	<div id="alumno">
