@@ -8,11 +8,22 @@ var sol4="b"
 function evaluar (i) {
 	switch(i) {
     case 1:
-        secuencia();
+    if($.isNumeric($('input:text[name=respuesta1]').val())){
+    	secuencia();
+    }else{
+    	alert("El dato ingresado no es un número");
+    	$('input:text[name=respuesta1]').val('');
+    }
+        
         break;
 
     case 2:
+    if($.isNumeric($('input:text[name=respuesta2]').val())){
         respuesta2();
+        }else{
+    	alert("El dato ingresado no es un número");
+    	$('input:text[name=respuesta2]').val('');
+    }
         break;
 
     case 3:
