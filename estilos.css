@@ -38,7 +38,8 @@ body {
  }
  
  #fila{
-	 background: linear-gradient(#411300, #974624, #411300);
+	 /*background: linear-gradient(#411300, #974624, #411300);*/
+	 background-color:#222222;
  }
  
  ul {
@@ -56,6 +57,7 @@ li {
 hr{
 	width: 60%;
 	border: 1px solid #1C0800;
+	border: 1px solid #BC9F44;
 	border-radius: 250px /10px;
 	height: 0px;
 	text-align: center;
@@ -63,6 +65,7 @@ hr{
 	margin-top:0px;
 	box-shadow:1px 1px 3px #934929;
 	box-shadow:1px 0.5px 2px #BC6844;
+	box-shadow:1px 0.5px 2px #6E5506;
 }
 
 a {
@@ -70,22 +73,27 @@ a {
 	color: #BC6844;
 	color: #1C0800;
 	color:#120500;
+	color:#BC9F44;
 	text-decoration:none;
 	text-align:center;
 	font-size:18px;
-	text-shadow: 1px 1px 3px #9D5537;
+	/*text-shadow: 1px 1px 3px #9D5537;*/
+	text-shadow: 1px 1px 3px #6E5506;
 }
 
 a:hover {
 	color:#491600;
+	color:#FFF5D5;
+	color:#D3BD74;
 	transition:all .3s ease-in-out;
 	text-decoration:none;
-	text-shadow: 1px 1px 3px #9D5537;
+	/*text-shadow: 1px 1px 3px #9D5537;*/
+	text-shadow: 1px 1px 3px #6E5506;
 }
 
 .seleccionado{
-	color:#491600;
-	text-shadow: 1px 1px 3px #9D5537;
+	color:#6E5506;
+	text-shadow: 1px 1px 3px #261D00;
 	font-size:18px;
 }
 
@@ -250,17 +258,22 @@ h1{
 	color: #BC6844;
 	color: #1C0800;
 	color:#120500;
+	color:#BC9F44;
 	text-decoration:none;
 	text-align:center;
 	font-size:18px;
 	text-shadow: 1px 1px 3px #9D5537;
+	text-shadow: 1px 1px 3px #6E5506;
 }
 
 #desplegable:hover{
 	color:#491600;
+	color:#D3BD74;
 	transition:all .3s ease-in-out;
 	text-decoration:none;
 	text-shadow: 1px 1px 3px #9D5537;
+	text-shadow: 1px 1px 3px #6E5506;
+
 }
 
 .panel-body{
